@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessFlagGame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Guess The Flag</h1>
+
+        <h2 id="questions">Which is the flag of ? </h2>
+
+        <div class="flags">
+            <img src="" alt="" id="image-flag1" onclick="checkAnswer(0)">
+             <img src="" alt="" id="image-flag2" onclick="checkAnswer(1)">
+              <img src="" alt="" id="image-flag3" onclick="checkAnswer(2)" >
+        
+        </div>
+
+        <div class="scorex">
+            <p id="score">score : </p>
+        </div>
+
+
+
+
+
+<div class="next-btn">
+    <button id="nxt-btn" onclick="next()">Next</button>
+</div>
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
